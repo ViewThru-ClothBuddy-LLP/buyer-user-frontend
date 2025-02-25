@@ -4,12 +4,12 @@ import { getAuth, GoogleAuthProvider  } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCABk-VTnCu9LQ5KpaCsPLpURb--f1jM-Q",
-  authDomain: "clothbuddyauth.firebaseapp.com",
+  apiKey: //"Use firebase api here ",
+  authDomain: //"use domain here in quotes",
   projectId: "clothbuddyauth",
-  storageBucket: "clothbuddyauth.appspot.com",
-  messagingSenderId: "310491930725",
-  appId: "1:310491930725:web:881bb3845b2ba9e85ee68c",
+  storageBucket: //"",
+  messagingSenderId: //"",
+  appId: //"",
   measurementId: "G-46DH4QBSSC"
 };
 
