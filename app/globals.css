@@ -1,6 +1,9 @@
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 body {
   background-color: black;
@@ -78,3 +81,19 @@ input[type="search"]::-webkit-search-results-decoration {
   }
 }
 
+@keyframes move-gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+.animate-move-gradient {
+  background-size: 200% 200%;
+  animation: move-gradient 10s ease infinite;
+}

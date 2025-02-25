@@ -2,7 +2,10 @@
 import "./globals.css"
 import { Inter } from "next/font/google"
 import Navbar from "@/components/Navbar"
-import { AuthProvider } from "@/contexts/AuthContext"
+// import { AuthProvider } from "@/contexts/AuthContext"
+import "@fortawesome/fontawesome-free/css/all.min.css"; // ✅ Correct way in Next.js
+
+
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -19,10 +22,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <AuthProvider>
+        {/* <AuthProvider> */}
           <Navbar />
           {children}
-        </AuthProvider>
+        {/* </AuthProvider> */}
       </body>
     </html>
   )

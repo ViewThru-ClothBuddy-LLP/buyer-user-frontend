@@ -49,7 +49,7 @@ export default function Navbar() {
 
           {/* Sign In Button */}
           <Button  variant="ghost" className="text-white hover:bg-gray-800">
-          <Link href="/auth/signin" className="text-white text-xl font-bold">
+          <Link href="/create-account" className="text-white text-xl font-bold">
           
           Sign In
         </Link>
